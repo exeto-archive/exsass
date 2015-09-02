@@ -1,0 +1,14 @@
+/// Apply a natural box layout model to all elements,
+/// but allowing components to change
+///
+/// @link https://goo.gl/quQpCV
+
+@mixin ex-border-box {
+  html {
+    box-sizing: border-box;
+  }
+
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+}

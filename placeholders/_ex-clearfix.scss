@@ -1,0 +1,16 @@
+/// The clearfix hack is a popular way to contain floats
+/// without resorting to using presentational markup.
+///
+/// @link http://nicolasgallagher.com/micro-clearfix-hack/
+
+%ex-clearfix {
+  &:before,
+  &:after {
+    display: table;
+    content: ' ';
+  }
+
+  &:after {
+    clear: both;
+  }
+}

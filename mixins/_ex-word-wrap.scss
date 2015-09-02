@@ -1,0 +1,13 @@
+/// Provides an easy way to change the `word-wrap` property.
+/// Taken from Bourbon library.
+
+@mixin ex-word-wrap($wrap: break-word) {
+  overflow-wrap: $wrap;
+  word-wrap: $wrap;
+
+  @if $wrap == break-word {
+    word-break: break-all;
+  } @else {
+    word-break: $wrap;
+  }
+}

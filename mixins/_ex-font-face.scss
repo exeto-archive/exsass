@@ -1,0 +1,21 @@
+/// Mixin for simple adding fonts.
+///
+/// @example scss
+///   @include ex-font-face('PT Sans', '../fonts/pt-sans', bold, italic);
+
+@mixin ex-font-face($font-family, $file-path, $weight: normal, $style: normal, $local-name: false) {
+  @font-face {
+    font-family: '#{$font-family}';
+
+    @if $local-name {
+      src: local('#{$local-name}');
+    }
+
+    src: url('#{$file-path}.eot');
+    src: url('#{$file-path}.eot?#iefix') format('embedded-opentype'),
+         url('#{$file-path}.woff') format('woff'),
+         url('#{$file-path}.ttf') format('truetype');
+    font-weight: $weight;
+    font-style: $style;
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "exsass",
+  "version": "0.1.0",
+  "description": "A small mixin library for Sass",
+  "license": "MIT",
+  "repository": "exeto/exsass",
+  "main": "_exsass.scss",
+  "author": {
+    "name": "Timofey Dergachev",
+    "email": "t@exeto.me",
+    "url": "exeto.me"
+  },
+  "keywords": [
+    "sass",
+    "scss",
+    "mixins",
+    "front-end"
+  ]
+}
