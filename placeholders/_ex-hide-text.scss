@@ -1,11 +1,14 @@
-/// Hides the text in an element, commonly used to show an image instead.
-/// Some elements will need block-level styles applied.
-/// Taken from Bourbon library.
+/// Hide only visually, but have it available for screen readers
 ///
-/// @link http://goo.gl/EvLRIu
+/// @link http://goo.gl/K2PhyF
 
 %ex-hide-text {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
   overflow: hidden;
-  text-indent: 101%;
-  white-space: nowrap;
+  padding: 0;
+  position: absolute;
+  width: 1px;
 }
