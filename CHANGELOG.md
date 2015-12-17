@@ -1,4 +1,10 @@
 
+0.2.0 / 2015-12-17
+==================
+
+ * Add old `_ex-hide-text.scss`
+ * Rename `_ex-hide-text.scss` to `_ex-visually-hidden.scss`
+
 0.1.1 / 2015-11-20
 ==================
 
