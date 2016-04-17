@@ -1,4 +1,10 @@
 
+0.5.0 / 2016-04-17
+==================
+
+ * Remove form bower.
+ * Remove normalize.css and reset.css mixins. Instead, use the same npm packages.
+
 0.4.0 / 2016-03-28
 ==================
 

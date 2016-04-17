@@ -1,6 +1,6 @@
 {
   "name": "exsass",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "description": "A small mixin library for Sass",
   "license": "MIT",
   "repository": "exeto/exsass",
