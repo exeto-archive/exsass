@@ -11,9 +11,15 @@ $ npm install --save exsass
 ## Usage
 
 ```scss
-@import 'node_modules/exsass/exsass';
+@import "node_modules/exsass/exsass";
 
-@include ex-normalize;
+// or if you use sass-loader
+
+@import "~exsass"
+
+.something {
+  @extend %ex-clearfix;
+}
 ```
 
 ## License
