@@ -15,7 +15,7 @@ $ npm install --save exsass
 
 // or if you use sass-loader
 
-@import "~exsass"
+@import "~exsass";
 
 .something {
   @extend %ex-clearfix;
