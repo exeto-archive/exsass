@@ -6,20 +6,12 @@ A small mixin library for Sass.
 
 ```bash
 $ npm install --save exsass
-
-# or
-
-$ bower install --save exsass
 ```
 
 ## Usage
 
 ```scss
 @import 'node_modules/exsass/exsass';
-
-// or
-
-@import 'bower_components/exsass/exsass';
 
 @include ex-normalize;
 ```
