@@ -1,6 +1,8 @@
 # exsass
 
-A small mixin library for Sass.
+> A small mixin library for Sass.
+
+**THIS PACKAGE IS NO LONGER MAINTAINED**
 
 ## Install
 
@@ -11,11 +13,11 @@ $ npm install --save exsass
 ## Usage
 
 ```scss
-@import "node_modules/exsass/exsass";
+@import 'node_modules/exsass/exsass';
 
 // or if you use sass-loader
 
-@import "~exsass";
+@import '~exsass';
 
 .something {
   @extend %ex-clearfix;
